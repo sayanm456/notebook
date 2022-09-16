@@ -3,6 +3,12 @@
   "name": "notebook",
   "version": "0.1.0",
   "private": true,
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
